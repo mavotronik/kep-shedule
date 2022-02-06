@@ -1,0 +1,11 @@
+name: "KEP Shedule"
+description: "Actual scedule every 3 hours, for 21 MR"
+version: "1.0.0"
+slug: "kep_shedule"
+arch:
+  - aarch64
+  - amd64
+  - armv7
+startup: before
+ports:
+  8100/tcp: 8100
